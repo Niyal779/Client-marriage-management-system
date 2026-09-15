@@ -1,0 +1,6 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Marriage Register</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/style.css?v=2"></head>
+<body><div id="app"></div><div id="toast" role="status" aria-live="polite"></div><script>
+/* Initial data copied from marriage_register.xlsx. It is written only when the database has never been initialized. */
+const h=['Page No','Male Name',"Male's Father Name",'Female Name',"Female's Father Name",'Marriage No','Marriage Date'];const r=[];window.InitialData={headers:h,records:[]};for(var j=0;j<r.length;j++){var o={};for(var i=0;i<h.length;i++)o[h[i]]=r[j][i];window.InitialData.records.push(o)}
+</script><script src="js/supabase-config.js?v=1"></script><script src="js/storage.js?v=6"></script><script src="js/auth.js?v=1"></script><script src="js/app.js?v=8"></script></body></html>
