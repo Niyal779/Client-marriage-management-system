@@ -1,4 +1,5 @@
 # Marriage Register
+live: https://kazimr.netlify.app/ 
 
 A standalone, local-first Marriage Register management system.
 
@@ -8,8 +9,8 @@ Use VS Code's **Live Server** extension, or run `php -S localhost:8000` and open
 
 ## Login
 
-Username: `Jihadul`  
-Password: `jihad1234`
+Username: `....`  
+Password: `....`
 
 Change these values in `js/auth.js`, in the `credentials` constant.
 
